@@ -1,8 +1,14 @@
 package Calculator;
 
+import java.util.Scanner;
+
 public class Calculator {
     public static void main(String[] args) {
 
-        System.out.println("123");
+        Scanner scanner = new Scanner(System.in);
+        int x = scanner.nextInt();
+
+
+        System.out.println(x);
     }
 }
